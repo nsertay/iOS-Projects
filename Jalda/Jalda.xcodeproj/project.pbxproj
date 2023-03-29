@@ -1,0 +1,609 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EDF997EF29C6FFF2002CF303 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDF997EE29C6FFF2002CF303 /* AppDelegate.swift */; };
+		EDF997F129C6FFF2002CF303 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDF997F029C6FFF2002CF303 /* SceneDelegate.swift */; };
+		EDF997F329C6FFF2002CF303 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDF997F229C6FFF2002CF303 /* ViewController.swift */; };
+		EDF997F629C6FFF2002CF303 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EDF997F429C6FFF2002CF303 /* Main.storyboard */; };
+		EDF997F829C6FFF3002CF303 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EDF997F729C6FFF3002CF303 /* Assets.xcassets */; };
+		EDF997FB29C6FFF3002CF303 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EDF997F929C6FFF3002CF303 /* LaunchScreen.storyboard */; };
+		EDF9980629C6FFF3002CF303 /* JaldaTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDF9980529C6FFF3002CF303 /* JaldaTests.swift */; };
+		EDF9981029C6FFF4002CF303 /* JaldaUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDF9980F29C6FFF4002CF303 /* JaldaUITests.swift */; };
+		EDF9981229C6FFF4002CF303 /* JaldaUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDF9981129C6FFF4002CF303 /* JaldaUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		EDF9980229C6FFF3002CF303 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EDF997E329C6FFF2002CF303 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EDF997EA29C6FFF2002CF303;
+			remoteInfo = Jalda;
+		};
+		EDF9980C29C6FFF4002CF303 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EDF997E329C6FFF2002CF303 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EDF997EA29C6FFF2002CF303;
+			remoteInfo = Jalda;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		EDF997EB29C6FFF2002CF303 /* Jalda.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Jalda.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EDF997EE29C6FFF2002CF303 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		EDF997F029C6FFF2002CF303 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		EDF997F229C6FFF2002CF303 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		EDF997F529C6FFF2002CF303 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		EDF997F729C6FFF3002CF303 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EDF997FA29C6FFF3002CF303 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		EDF997FC29C6FFF3002CF303 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EDF9980129C6FFF3002CF303 /* JaldaTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JaldaTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EDF9980529C6FFF3002CF303 /* JaldaTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JaldaTests.swift; sourceTree = "<group>"; };
+		EDF9980B29C6FFF4002CF303 /* JaldaUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JaldaUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EDF9980F29C6FFF4002CF303 /* JaldaUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JaldaUITests.swift; sourceTree = "<group>"; };
+		EDF9981129C6FFF4002CF303 /* JaldaUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JaldaUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EDF997E829C6FFF2002CF303 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EDF997FE29C6FFF3002CF303 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EDF9980829C6FFF4002CF303 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EDF997E229C6FFF2002CF303 = {
+			isa = PBXGroup;
+			children = (
+				EDF997ED29C6FFF2002CF303 /* Jalda */,
+				EDF9980429C6FFF3002CF303 /* JaldaTests */,
+				EDF9980E29C6FFF4002CF303 /* JaldaUITests */,
+				EDF997EC29C6FFF2002CF303 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EDF997EC29C6FFF2002CF303 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EDF997EB29C6FFF2002CF303 /* Jalda.app */,
+				EDF9980129C6FFF3002CF303 /* JaldaTests.xctest */,
+				EDF9980B29C6FFF4002CF303 /* JaldaUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EDF997ED29C6FFF2002CF303 /* Jalda */ = {
+			isa = PBXGroup;
+			children = (
+				EDF997EE29C6FFF2002CF303 /* AppDelegate.swift */,
+				EDF997F029C6FFF2002CF303 /* SceneDelegate.swift */,
+				EDF997F229C6FFF2002CF303 /* ViewController.swift */,
+				EDF997F429C6FFF2002CF303 /* Main.storyboard */,
+				EDF997F729C6FFF3002CF303 /* Assets.xcassets */,
+				EDF997F929C6FFF3002CF303 /* LaunchScreen.storyboard */,
+				EDF997FC29C6FFF3002CF303 /* Info.plist */,
+			);
+			path = Jalda;
+			sourceTree = "<group>";
+		};
+		EDF9980429C6FFF3002CF303 /* JaldaTests */ = {
+			isa = PBXGroup;
+			children = (
+				EDF9980529C6FFF3002CF303 /* JaldaTests.swift */,
+			);
+			path = JaldaTests;
+			sourceTree = "<group>";
+		};
+		EDF9980E29C6FFF4002CF303 /* JaldaUITests */ = {
+			isa = PBXGroup;
+			children = (
+				EDF9980F29C6FFF4002CF303 /* JaldaUITests.swift */,
+				EDF9981129C6FFF4002CF303 /* JaldaUITestsLaunchTests.swift */,
+			);
+			path = JaldaUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EDF997EA29C6FFF2002CF303 /* Jalda */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EDF9981529C6FFF4002CF303 /* Build configuration list for PBXNativeTarget "Jalda" */;
+			buildPhases = (
+				EDF997E729C6FFF2002CF303 /* Sources */,
+				EDF997E829C6FFF2002CF303 /* Frameworks */,
+				EDF997E929C6FFF2002CF303 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Jalda;
+			productName = Jalda;
+			productReference = EDF997EB29C6FFF2002CF303 /* Jalda.app */;
+			productType = "com.apple.product-type.application";
+		};
+		EDF9980029C6FFF3002CF303 /* JaldaTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EDF9981829C6FFF4002CF303 /* Build configuration list for PBXNativeTarget "JaldaTests" */;
+			buildPhases = (
+				EDF997FD29C6FFF3002CF303 /* Sources */,
+				EDF997FE29C6FFF3002CF303 /* Frameworks */,
+				EDF997FF29C6FFF3002CF303 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EDF9980329C6FFF3002CF303 /* PBXTargetDependency */,
+			);
+			name = JaldaTests;
+			productName = JaldaTests;
+			productReference = EDF9980129C6FFF3002CF303 /* JaldaTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		EDF9980A29C6FFF4002CF303 /* JaldaUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EDF9981B29C6FFF4002CF303 /* Build configuration list for PBXNativeTarget "JaldaUITests" */;
+			buildPhases = (
+				EDF9980729C6FFF4002CF303 /* Sources */,
+				EDF9980829C6FFF4002CF303 /* Frameworks */,
+				EDF9980929C6FFF4002CF303 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EDF9980D29C6FFF4002CF303 /* PBXTargetDependency */,
+			);
+			name = JaldaUITests;
+			productName = JaldaUITests;
+			productReference = EDF9980B29C6FFF4002CF303 /* JaldaUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EDF997E329C6FFF2002CF303 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1420;
+				LastUpgradeCheck = 1420;
+				TargetAttributes = {
+					EDF997EA29C6FFF2002CF303 = {
+						CreatedOnToolsVersion = 14.2;
+					};
+					EDF9980029C6FFF3002CF303 = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = EDF997EA29C6FFF2002CF303;
+					};
+					EDF9980A29C6FFF4002CF303 = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = EDF997EA29C6FFF2002CF303;
+					};
+				};
+			};
+			buildConfigurationList = EDF997E629C6FFF2002CF303 /* Build configuration list for PBXProject "Jalda" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EDF997E229C6FFF2002CF303;
+			productRefGroup = EDF997EC29C6FFF2002CF303 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EDF997EA29C6FFF2002CF303 /* Jalda */,
+				EDF9980029C6FFF3002CF303 /* JaldaTests */,
+				EDF9980A29C6FFF4002CF303 /* JaldaUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EDF997E929C6FFF2002CF303 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EDF997FB29C6FFF3002CF303 /* LaunchScreen.storyboard in Resources */,
+				EDF997F829C6FFF3002CF303 /* Assets.xcassets in Resources */,
+				EDF997F629C6FFF2002CF303 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EDF997FF29C6FFF3002CF303 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EDF9980929C6FFF4002CF303 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EDF997E729C6FFF2002CF303 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EDF997F329C6FFF2002CF303 /* ViewController.swift in Sources */,
+				EDF997EF29C6FFF2002CF303 /* AppDelegate.swift in Sources */,
+				EDF997F129C6FFF2002CF303 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EDF997FD29C6FFF3002CF303 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EDF9980629C6FFF3002CF303 /* JaldaTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EDF9980729C6FFF4002CF303 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EDF9981029C6FFF4002CF303 /* JaldaUITests.swift in Sources */,
+				EDF9981229C6FFF4002CF303 /* JaldaUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		EDF9980329C6FFF3002CF303 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EDF997EA29C6FFF2002CF303 /* Jalda */;
+			targetProxy = EDF9980229C6FFF3002CF303 /* PBXContainerItemProxy */;
+		};
+		EDF9980D29C6FFF4002CF303 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EDF997EA29C6FFF2002CF303 /* Jalda */;
+			targetProxy = EDF9980C29C6FFF4002CF303 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		EDF997F429C6FFF2002CF303 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EDF997F529C6FFF2002CF303 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		EDF997F929C6FFF3002CF303 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EDF997FA29C6FFF3002CF303 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EDF9981329C6FFF4002CF303 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		EDF9981429C6FFF4002CF303 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EDF9981629C6FFF4002CF303 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 9626PS532X;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Jalda/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = nurmukhanbet.Jalda;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		EDF9981729C6FFF4002CF303 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 9626PS532X;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Jalda/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = nurmukhanbet.Jalda;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		EDF9981929C6FFF4002CF303 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 9626PS532X;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = nurmukhanbet.JaldaTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Jalda.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Jalda";
+			};
+			name = Debug;
+		};
+		EDF9981A29C6FFF4002CF303 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 9626PS532X;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = nurmukhanbet.JaldaTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Jalda.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Jalda";
+			};
+			name = Release;
+		};
+		EDF9981C29C6FFF4002CF303 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 9626PS532X;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = nurmukhanbet.JaldaUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Jalda;
+			};
+			name = Debug;
+		};
+		EDF9981D29C6FFF4002CF303 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 9626PS532X;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = nurmukhanbet.JaldaUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Jalda;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EDF997E629C6FFF2002CF303 /* Build configuration list for PBXProject "Jalda" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EDF9981329C6FFF4002CF303 /* Debug */,
+				EDF9981429C6FFF4002CF303 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EDF9981529C6FFF4002CF303 /* Build configuration list for PBXNativeTarget "Jalda" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EDF9981629C6FFF4002CF303 /* Debug */,
+				EDF9981729C6FFF4002CF303 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EDF9981829C6FFF4002CF303 /* Build configuration list for PBXNativeTarget "JaldaTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EDF9981929C6FFF4002CF303 /* Debug */,
+				EDF9981A29C6FFF4002CF303 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EDF9981B29C6FFF4002CF303 /* Build configuration list for PBXNativeTarget "JaldaUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EDF9981C29C6FFF4002CF303 /* Debug */,
+				EDF9981D29C6FFF4002CF303 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EDF997E329C6FFF2002CF303 /* Project object */;
+}
